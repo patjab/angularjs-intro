@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="patrickApp">
+<head>
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <div ng-controller="mainController">
+    <select ng-model="texting">
+      <option>NY</option>
+      <option>NJ</option>
+      <option>CT</option>
+    </select>
+    <h1>{{ texting }}</h1>
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.js"></script>
+<script src="./app.js"></script>
+</html>
